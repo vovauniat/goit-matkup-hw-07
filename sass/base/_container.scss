@@ -1,0 +1,17 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+
+  .header & {
+    display: flex;
+    align-items: center;
+  }
+}
+/* задавало отступи для секций */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

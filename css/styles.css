@@ -82,12 +82,12 @@ img {
   background-color: #2196f3;
   min-width: 200;
   border-radius: 4px;
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 
 /* .vibor-nav {
