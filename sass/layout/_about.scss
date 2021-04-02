@@ -2,14 +2,7 @@
   padding-bottom: var(--section-pb);
 }
 
-.chemzan-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.title-chemzan {
+.title-about {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -19,13 +12,20 @@
   margin-bottom: 50px;
 }
 
-.chemzan-item {
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   position: relative;
 }
-.text-about {
+.about-list__head {
   display: flex;
   justify-content: center;
   align-items: center;

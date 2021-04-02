@@ -20,11 +20,11 @@
   margin-left: -30px;
 }
 
-.cust-list-item {
+.cust-list__item {
   margin-left: 30px;
 }
 
-.cust-list-element {
+.cust-list__link {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,12 +45,12 @@
   }
 }
 
-.cust-icon {
+.cust-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .cust-list-element:hover &,
-  .cust-list-element:focus & {
+  .cust-list__link:hover &,
+  .cust-list__link:focus & {
     fill: var(--accent-color);
   }
 }

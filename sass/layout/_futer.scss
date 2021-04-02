@@ -15,24 +15,24 @@
   align-items: baseline;
 }
 
-.footer-list {
+.footer-adress-list {
   margin-top: 20px;
 }
 
-.footer-elements {
+.footer-adress-list__item {
   &:not(:last-child) {
     margin-bottom: 9px;
   }
 }
 
-.footer-adress {
+.footer-adress-list__place {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-comun {
+.footer-adress-list__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -45,15 +45,14 @@
   flex-direction: column;
   margin-left: 70px;
 }
-.fut-soc-head {
+.fut-social__head {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--bd-color-pri);
+  color: #ffffff;
 }
-
 .fut-social-list {
   padding-top: 20px;
 }

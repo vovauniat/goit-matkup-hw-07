@@ -1,16 +1,27 @@
 .features {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
-  background-color: var(--bd-color-pri);
 }
 
-.features-logo-item {
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.features-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.features-list__icon-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,30 +34,12 @@
   border-radius: 4px;
 }
 
-.feat-icon {
+.features-list__icon {
   height: 70px;
   width: 70px;
 }
 
-.features-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.features-list-item {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-  text-align: left;
-}
-
-.features-zago {
+.features-list__head {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +47,7 @@
   color: var(--main-color);
 }
 
-.features-text {
+.features-list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
