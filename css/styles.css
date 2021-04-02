@@ -82,12 +82,11 @@ img {
   background-color: #2196f3;
   min-width: 200;
   border-radius: 4px;
-
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-    color: #ffffff;
-  }
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* .vibor-nav {
@@ -853,14 +852,6 @@ img {
   background-repeat: no-repeat;
   border: var(--accent-color);
 }
-
-/* .modal-form-term:focus + .modal-form-check-desc::before {
-  background-image: url(../images/galka.svg);
-  background-position: center;
-  background-color: var(--accent-color);
-  background-repeat: no-repeat;
-  border: var(--accent-color);
-} */
 
 .modal-form-btn {
   align-self: center;

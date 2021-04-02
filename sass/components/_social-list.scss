@@ -1,6 +1,12 @@
 .social-list {
   display: flex;
   align-items: center;
+
+  .team-list-content-wrapper & {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
 }
 
 .social-list-item {

@@ -7,29 +7,16 @@
   padding-top: 24px;
   padding-bottom: 24px;
   border: 1px solid #ececec;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .navigation {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  margin-right: 93px;
-}
-
-.logo-head {
-  color: #212121;
-}
-
-.logo-fut {
-  color: #ffffff;
 }
 
 .navigation-list {
